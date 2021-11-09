@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh 'mvn --version'
                 sh 'mvn verify'
-                sh 'echo "foo"'
+                sh 'echo "Hello World"'
             }
         }
     }
