@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'mvn --version'
-                sh 'mvn verify'
+                sh 'mvn verify -e'
                 sh 'echo "Hello World"'
             }
         }
