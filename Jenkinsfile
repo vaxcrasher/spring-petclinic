@@ -12,7 +12,8 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git url: 'https://github.com/vaxcrasher/spring-petclinic.git'
+        git url: 'https://github.com/vaxcrasher/spring-petclinic.git',
+            branch: 'main'
       }
     }
     stage('Compile') {
