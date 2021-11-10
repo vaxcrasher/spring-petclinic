@@ -12,7 +12,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/vaxcrasher/spring-petclinic'
+        git url: 'https://github.com/vaxcrasher/spring-petclinic.git'
       }
     }
     stage('Compile') {
