@@ -1,7 +1,7 @@
 pipeline {
   environment {
     registry = "vaxcrasher/spring-petclinic-docker"
-    registryCredential = 'docker-hub'
+    registryCredential = 'vaxcrasher'
     dockerImage = ''
   }
   agent any
