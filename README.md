@@ -62,7 +62,7 @@ following happening.
   to work correctly (thanks again google).
 * Create credentials to connect to my DockerHub account (this required a token and the right user name)
 * Create a new Multibranch Pipeline Item named "PetClinic"
-  * Set up the Github connection
+  * Set up the Github connection (no credentials required - this is a public repo)
 
 ## Jenkinsfile Configuration and Build
 I initially tried to create my own Jenkinsfile but I quickly figured out that I would need to go through 
