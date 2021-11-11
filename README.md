@@ -10,3 +10,4 @@
   ```
     docker stop spring-petclinic-container
   ```
+* PetClinic URL: http://localhost:8181
