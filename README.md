@@ -3,7 +3,7 @@ This repository contains a copy of the Spring PetClinic application that has bee
 to be built with Jenkins and deployed as a Docker container.
 
 ## Environment
-###Required Software
+### Required Software
 * MacOS 11.5.2 (Big Sur)
 * VMware Fusion 12.1.2
 * Ubuntu Linux 20.04.3
@@ -16,7 +16,7 @@ to be built with Jenkins and deployed as a Docker container.
 * GitKraken 8.1.1
 * VS Code 1.62.1
 
-###Configuration Process
+### Configuration Process
 1. Create an Ubuntu 20.04 VM using VMware with the following configuration:
    * Memory: 4gb
    * CPU count: 2
