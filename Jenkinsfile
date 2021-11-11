@@ -18,7 +18,7 @@ pipeline {
     }
     stage('Compile') {
        steps {
-         sh 'mvn compile' //only compilation of the code
+         sh 'mvn compile'
        }
     }
     stage('Test') {
@@ -28,7 +28,6 @@ pipeline {
         ls
         pwd
         '''
-        //if the code is compiled, we test and package it in its distributable format; run IT and store in local repository
       }
     }
     stage('Building Image') {
