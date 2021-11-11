@@ -139,8 +139,8 @@ Time to clean up my repo a bit and write this document.
 * Start Container
   ```
     docker rm spring-petclinic-container
-    docker pull vaxcrasher/spring-petclinic-container
-    docker run -d name spring-petclinic-container -p 8181:8181 vaxcrasher/spring-petclinic-container
+    docker pull vaxcrasher/spring-petclinic-docker:latest
+    docker run -d --name spring-petclinic-container -p 8181:8181 vaxcrasher/spring-petclinic-docker
    ```
 * Stop Container
   ```
